@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "操作系统和浏览器检测库",
   "main": "dist/detect.js",
+  "repository": {
+		"type": "git",
+		"url": "https://github.com/QLFE/mars-detect"
+	},
   "scripts": {
     "prepublishOnly": "npm run build",
     "build": "webpack --progress --colors",
